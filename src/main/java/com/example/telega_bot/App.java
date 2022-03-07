@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TelegaBotApplication {
+public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(TelegaBotApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
     //1 git
@@ -17,4 +17,6 @@ public class TelegaBotApplication {
     //5 невс тбл
     //6 попробуем сетка для нескольких пользователей
 
+
+    //TODO я не вижу смысла пока дрочить с флайвеем поэтому не подкрутил бд
 }

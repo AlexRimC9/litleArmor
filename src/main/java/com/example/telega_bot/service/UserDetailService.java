@@ -6,8 +6,4 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 public class UserDetailService {
 
-    @Bean
-    public PasswordEncoder encoder() {
-        return new BCryptPasswordEncoder();
-    }
 }

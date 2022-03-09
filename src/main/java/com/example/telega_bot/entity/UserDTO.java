@@ -18,4 +18,6 @@ public class UserDTO {
 
     private String birthDay;
 
+    private String password;
+
 }
